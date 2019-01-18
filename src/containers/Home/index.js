@@ -93,11 +93,11 @@ class Home extends Component {
       <div style={{ flex: '1', overflowY: 'auto' }}>
         <Navbar />
         <div className={`card ${css(styles.card)}`}>
-          <h3 style={{ marginBottom: '2rem', textAlign: 'center' }}>Create a new room</h3>
+          <h3 style={{ marginBottom: '2rem', textAlign: 'center' }}>Create a new Session</h3>
           <NewRoomForm onSubmit={this.handleNewRoomSubmit} errors={this.props.newRoomErrors} />
         </div>
         <div className={`card ${css(styles.card)}`}>
-          <h3 style={{ marginBottom: '2rem', textAlign: 'center' }}>Join a room</h3>
+          <h3 style={{ marginBottom: '2rem', textAlign: 'center' }}>Join a Session</h3>
           <div style={{ marginBottom: '1rem' }}>
             {this.renderRooms()}
           </div>

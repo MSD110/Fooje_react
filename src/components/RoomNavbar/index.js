@@ -81,7 +81,7 @@ class RoomNavbar extends Component {
                 className={css(styles.topicButton)}
                 onClick={() => this.setState({ editingTopic: true })}
               >
-                {room.topic ? room.topic : 'General chat and discussion'}
+                {room.topic ? room.topic : ''}
               </button>
           }
         </div>
